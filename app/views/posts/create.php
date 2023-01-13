@@ -20,23 +20,23 @@
                         </div>
 
                         <div class="input-group mb-3">
-                            <span class="input-group-text" id="excerpt">
+                            <span class="input-group-text">
                                 excerpt
                                 <?php echo $data['excerptError']; ?>
                             </span>
-                            <textarea class="form-control" name="excerpt" placeholder="excerpt" required></textarea>
+                            <textarea class="form-control" id="excerpt" name="excerpt" placeholder="excerpt" required></textarea>
                         </div>
 
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" id="content">
+                        <div class="input-group mb-3 test">
+                            <span class="input-group-text">
                                 content
                                 <?php echo $data['contentError']; ?>
                             </span>
-                            <textarea class="form-control" name="content" placeholder="content" required></textarea>
+                            <textarea class="form-control" id="test" name="content" placeholder="content" required></textarea>
                         </div>
 
                         <div class="input-group mb-3">
-                            <span class="input-group-text" id="category">
+                            <span class="input-group-text">
                                 category
                                 <?php echo $data['categoryError']; ?>
                             </span>

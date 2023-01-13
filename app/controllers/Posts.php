@@ -106,7 +106,7 @@ class Posts extends Controller
             'title' => '',
             'excerpt' => '',
             'content' => '',
-            'title' => '',
+            'category' => '',
             'titleError' => '',
             'excerptError' => '',
             'contentError' => '',
